@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            }
+
+            td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            }
+
+            tr:nth-child(even) {
+            background-color: #dddddd;
+            }
+    </style>
+    <style>
+        .button {
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            }
+
+            .button1 {background-color: #04AA6D;} /* Green */
+</style>
+    </style>
+</head>
+<body>
+
+<h1>Student Registration Form</h1>
+<table>
+    <form>
+        <tr>
+            <td>
+                <label for = "fname"> First Name </label> <br>
+            </td>
+            <td>
+                <input type = "text" id="fname" /> <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for = "lname"> Last Name </label> <br>
+            </td>
+            <td>
+                <input type = "text" id="lname" /> <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for = "email"> Email </label> <br>
+            </td>
+            <td>
+                <input type = "text" id="email" /> <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for = "gender"> Gender </label> <br>
+            </td>
+            <td>
+                <select id = "gender"
+                    gender = "male">
+                        <option value = "male"> Male</option>
+                        <option value = "female"> Female </option>
+                        <option value = "other"> Other </option>
+                </select> <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for = "dob"> Date of Birth </label> <br>
+            </td>
+            <td>
+                <input type = "text" id="dob" /> <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for = "address"> Address </label> <br>
+            </td>
+            <td>
+                <input type = "text" id="address" /> <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for = "city"> City </label> <br>
+            </td>
+            <td>
+                <input type = "text" id="city" /> <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for = "zip"> Zip Code </label> <br>
+            </td>
+            <td>
+                <input type = "text" id="zip" /> <br>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button class="button1"> Submit </button>
+            </td>
+        </tr>
+    </form>
+</table>
+
+</body>
+</html>
