@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+    <div class="dashboard-header bg-white py-4">
+        <div class="flex justify-between items-center px-4">
+            <h1 class="text-lg font-semibold">My Dashboard</h1>
+            <a href="login.html">
+                <button class="out-button bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Log Out</button>
+            </a>
+        </div>
+    </div>
+    <div class="sidebar-display bg-gradient-to-r from-purple-200 to-purple-400 text-gray-800 py-4 px-2 fixed top-0 left-0 h-full w-40">
+        <h2 class="text-center">Dashboard</h2>
+        <ul class="mt-4">
+            <li><a href="#Home" class="sidebar-button block py-2 px-4 border-b border-gray-300">Home</a></li>
+            <li><a href="#Analytics" class="sidebar-button block py-2 px-4 border-b border-gray-300">Analytics</a></li>
+            <li><a href="#Reports" class="sidebar-button block py-2 px-4 border-b border-gray-300">Reports</a></li>
+            <li><a href="#Settings" class="sidebar-button block py-2 px-4 border-b border-gray-300">Settings</a></li>
+        </ul>
+    </div>
+    <div class="main-body ml-40 mt-20 px-4 text-center">
+        <h1>Welcome to the Dashboard Eden Claire!</h1>
+        <p class="mt-8">This is the main content area where you can display various information and charts.</p>
+    </div>
+    <div class="footer bg-gradient-to-r from-blue-200 to-blue-400 text-gray-900 py-2 px-4 fixed bottom-0 left-40 w-3/4 flex justify-center items-center">
+        <h5 class="mr-8">&copy; Dashboard. All rights reserved.</h5>
+    </div>
+</body>
+
+</html>
